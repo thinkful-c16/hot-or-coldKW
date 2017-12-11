@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import components 
+import Rules from './components/gamerules'
+import Game from './components/game'
 import './index.css';
-// import App from './App';
-// import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Game />, document.getElementById('root'));
+//purpose of the index.js is to render the DOM
+
+ReactDOM.render(<Rules />, document.getElementById('root'));
