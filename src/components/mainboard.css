@@ -1,3 +1,13 @@
 main {
+    margin: 0 auto;
     background-color: #1F253D;
 }
+
+
+/* //why is this not updating to the right color */
+/* 
+h1 {
+    color: white;
+    text-align: center;
+    border: 1px solid white
+} */

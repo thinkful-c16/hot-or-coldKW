@@ -1,0 +1,31 @@
+ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* //removes padding from the left (typical of unordered lists) */
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.what, .about {
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block
+}
+.what {
+    /* position: relative;
+    top: 18px;
+    left: -20px */
+}
+
+.about {
+    /* position: absolute;
+    right: 0; */
+}
+
